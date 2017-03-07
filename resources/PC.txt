@@ -1,0 +1,4 @@
+#
+private void a()%    {%        File file = new File("Test.txt");%        String v1 = "1 2 3 4 5 6";%        String v2 = "1 2 3 4";%        BufferedWriter output = null;%        try {%            output = new BufferedWriter(new FileWriter(file));%            output.write(v1);%            output.newLine();%            output.write(v2);%        } catch ( IOException e ) {%            e.printStackTrace();%        } finally {%          if ( output != null ) {%              try {%                  output.close();%              } catch (IOException ex) {%              }%          }%        }$ a$ b$ c$ d $0
+PC2$a$b$c$d$15
+
